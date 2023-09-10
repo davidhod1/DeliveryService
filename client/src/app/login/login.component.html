@@ -1,0 +1,21 @@
+<div class="d-flex justify-content-center align-items-center">
+    <div class="col-4">
+        <form [formGroup]="loginForm" (ngSubmit)="login()" autocomplete="off">
+            <h2 class="text-center text-primary">Sign In</h2>
+            <hr>
+            <app-text-input [formControl]="$any(loginForm.controls['username'])" [label]="'Username'"></app-text-input>
+            <app-text-input [formControl]="$any(loginForm.controls['password'])" [label]="'Password'"
+                [type]="'password'"></app-text-input>
+
+          
+            <div class="form-group text-center">
+                <button [disabled]="!loginForm.valid" class="btn btn-success me-2" 
+                    type="submit">Login</button>
+                <button class="btn btn-default me-2" routerLink="/"
+                    type="button">Cancel</button>
+            </div>
+
+
+        </form>
+    </div>
+</div>

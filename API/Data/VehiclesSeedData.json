@@ -1,0 +1,29 @@
+[
+    {
+        "Model" : "Audi",
+        "RegistrationNumber" : "2313122",
+        "ProductionYear" : 2015,
+        "MaxLoadCapacity" : 234,
+        "XCoordinate" : 42.23,
+        "YCoordinate" : 42.12,
+        "AdditionalInfo" : "Good car"
+    },
+    {
+        "Model" : "Volkswagen",
+        "RegistrationNumber" : "2312152",
+        "ProductionYear" : 2020,
+        "MaxLoadCapacity" : 500,
+        "XCoordinate" : 40.23,
+        "YCoordinate" : 42.12,
+        "AdditionalInfo" : "Das Auto"
+    },
+    {
+        "Model" : "BMW",
+        "RegistrationNumber" : "2332159",
+        "ProductionYear" : 2021,
+        "MaxLoadCapacity" : 500,
+        "XCoordinate" : 40.23,
+        "YCoordinate" : 42.12,
+        "AdditionalInfo" : "Vroooom"
+    }
+]

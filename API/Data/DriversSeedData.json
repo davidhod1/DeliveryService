@@ -1,0 +1,17 @@
+[
+    {
+        "FirstName" : "Pero",
+        "LastName"  : "Peric",
+        "LicenseNumber" : "12345678"
+    },
+    {
+        "FirstName" : "Ivan",
+        "LastName"  : "Ivic",
+        "LicenseNumber" : "12345679"
+    },
+    {
+        "FirstName" : "Jerko",
+        "LastName"  : "Leko",
+        "LicenseNumber" : "12345479"
+    }
+]
